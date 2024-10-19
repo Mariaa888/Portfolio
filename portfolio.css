@@ -267,6 +267,11 @@ border-bottom: 3px solid #F39C12;
         margin-bottom: 30px;
 }
 
+.Mywork h1,
+.right1 h1{
+    font-size: 20px;
+}
+
 .cards{
     
     display: flex;
