@@ -208,7 +208,7 @@ color: #323232;
 }
 .aboutmesection h1 {
     /* height: 0.3px; */
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     margin-bottom: 1em;
     /* border-bottom: 3px solid #F39C12; */
@@ -265,13 +265,9 @@ border-bottom: 3px solid #F39C12;
     display: flex;
         justify-content: center;
         margin-bottom: 30px;
-}
-
-.Mywork h1,
-.right1 h1{
+    
     font-size: 20px;
 }
-
 .cards{
     
     display: flex;
