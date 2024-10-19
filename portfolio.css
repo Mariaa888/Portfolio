@@ -122,7 +122,7 @@ color: #323232;
     align-items: center;
 }
 .right h2{
-  display: inline;  
+   display: inline !important;   
     font-size: 19px;
     justify-content: center;
     margin-top: 0.5em;
