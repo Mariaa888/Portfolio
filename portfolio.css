@@ -151,6 +151,10 @@ color: #323232;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
         
 }
+.contentbut a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .wave {
     display: inline-block;
     transform-origin: 70% 70%;
