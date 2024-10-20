@@ -381,6 +381,7 @@ flex-direction: row;
        transition: transform 0.3s ease;
        text-decoration: none;
        margin: 10px 30px;
+        white-space: nowrap;
        
    }
    .bi{
