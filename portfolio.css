@@ -151,6 +151,7 @@ color: #323232;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
          text-decoration: none;
     text-align: center;
+       display: inline-block;
    
 }
 .wave {
