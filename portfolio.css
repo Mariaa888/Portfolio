@@ -356,6 +356,8 @@ flex-direction: row;
        margin-top: 50px;
        background-color: #F5F5DC;
        padding: 30px;
+         display: flex;
+       flex-direction: column;
        border-radius: 30px;
        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    }
@@ -371,7 +373,6 @@ flex-direction: row;
    }
 .icons{
     display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
 }  
@@ -380,17 +381,18 @@ flex-direction: row;
        color: #000000;
        transition: transform 0.3s ease;
        text-decoration: none;
-       margin: 10px 30px;
-        white-space: nowrap;
+       margin: 0 15px;
        
    }
    .bi{
     width: 16px;
     height: 16px;
    }
-   .myresume{
-        white-space: nowrap;
-        transition: transform 0.3s ease;
+    .myresume{
+    margin-top: 20px;
+text-decoration: none;
+color: #000000;
+        transition: transform 0.3s ease
    }
 
 
@@ -546,9 +548,6 @@ height: 2px;
                 .contact-section p {
                     font-size: 1.2em;
                 }
-         .icons a{
-                        margin: 0 15px;
-                   }
         
                 .bi {
                     width: 20px;
