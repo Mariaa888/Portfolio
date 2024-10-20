@@ -369,17 +369,27 @@ flex-direction: row;
        font-size: 1em;
        margin-bottom: 30px;
    }
-
+.icons{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+}  
    .icons a {
        margin: 0 15px;
        color: #000000;
        transition: transform 0.3s ease;
        text-decoration: none;
+       margin: 10px 30px;
        
    }
    .bi{
     width: 16px;
     height: 16px;
+   }
+   .myresume{
+        white-space: nowrap;
+        transition: transform 0.3s ease;
    }
 
 
@@ -535,14 +545,16 @@ height: 2px;
                 .contact-section p {
                     font-size: 1.2em;
                 }
-        
+         .icons a{
+                        margin: 0 15px;
+                   }
         
                 .bi {
                     width: 20px;
                     height: 20px;
                     transition: transform 0.3s ease;
                 }
-                .bi:hover{
+                .bi:hover, .myresume:hover{
                     transform: scale(1.25);
                     
                 }
