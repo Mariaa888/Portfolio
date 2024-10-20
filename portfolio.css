@@ -149,11 +149,7 @@ color: #323232;
             margin-left: auto;
             margin-right: auto;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-        
-}
-.contentbut a{
-    color: #ffffff;
-    text-decoration: none;
+         text-decoration: none;
 }
 .wave {
     display: inline-block;
