@@ -13,7 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth',
             block: 'start'
         }); 
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 720px) {
             closebar();
         }
     });
