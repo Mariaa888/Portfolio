@@ -5,3 +5,16 @@ function show() {
 function closebar() {
     bar.style.display = 'none';
 }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        }); 
+        if (window.innerWidth <= 768) {
+            closebar();
+        }
+    });
+});
